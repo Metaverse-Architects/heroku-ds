@@ -1,0 +1,294 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Arilda Brushed Nickel",
+            "scale" : [
+                0.300915002822876,
+                0.300915002822876,
+                0.300915002822876
+            ],
+            "translation" : [
+                -32.61796951293945,
+                3.7497801780700684,
+                19.999963760375977
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Metal_lamp",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4432423710823059,
+                    0.4432423710823059,
+                    0.4432423710823059,
+                    1
+                ],
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Glass_lamp",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.10000000149011612
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Glass_lamp_yellow",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9386863112449646,
+                    0.8509174585342407,
+                    0.23924869298934937,
+                    0.699999988079071
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1272,
+            "max" : [
+                7.80327033996582,
+                0.8638415336608887,
+                0.31515562534332275
+            ],
+            "min" : [
+                -0.3151531517505646,
+                -3.6372079849243164,
+                -0.3151412308216095
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1272,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1272,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 5580,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 894,
+            "max" : [
+                7.8054118156433105,
+                -2.953608512878418,
+                0.31730493903160095
+            ],
+            "min" : [
+                -0.31730231642723083,
+                -4.133083343505859,
+                -0.3172822594642639
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 894,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 894,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 4320,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 999,
+            "max" : [
+                7.580813884735107,
+                -3.636268138885498,
+                0.0936659649014473
+            ],
+            "min" : [
+                -0.09241074323654175,
+                -3.9006237983703613,
+                -0.09143807739019394
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 999,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 999,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 4536,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 15264,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15264,
+            "byteOffset" : 15264,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10176,
+            "byteOffset" : 30528,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11160,
+            "byteOffset" : 40704,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10728,
+            "byteOffset" : 51864,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10728,
+            "byteOffset" : 62592,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7152,
+            "byteOffset" : 73320,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8640,
+            "byteOffset" : 80472,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11988,
+            "byteOffset" : 89112,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11988,
+            "byteOffset" : 101100,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7992,
+            "byteOffset" : 113088,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9072,
+            "byteOffset" : 121080,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 130152,
+            "uri" : "1989_kitchen_Light_ArildaBrushedNickel.bin"
+        }
+    ]
+}

@@ -1,0 +1,295 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Zire Midnight Black",
+            "scale" : [
+                0.300915002822876,
+                0.300915002822876,
+                0.300915002822876
+            ],
+            "translation" : [
+                -32.63060760498047,
+                3.7497801780700684,
+                19.999431610107422
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Black_lamp",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0023219799622893333,
+                    0.0023219799622893333,
+                    0.0023219799622893333,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Glass_lamp",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.10000000149011612
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Glass_lamp_yellow",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9386863112449646,
+                    0.8509174585342407,
+                    0.23924869298934937,
+                    0.699999988079071
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2358,
+            "max" : [
+                8.467549324035645,
+                0.8638404607772827,
+                0.38842087984085083
+            ],
+            "min" : [
+                -0.3884257376194,
+                -3.3132643699645996,
+                -0.3884192109107971
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2358,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2358,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4284,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 144,
+            "max" : [
+                8.45457935333252,
+                -3.0502398014068604,
+                0.37545108795166016
+            ],
+            "min" : [
+                -0.37545594573020935,
+                -4.200643539428711,
+                -0.37544941902160645
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 144,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 144,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 432,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 999,
+            "max" : [
+                8.219558715820312,
+                -3.310990810394287,
+                0.1412922739982605
+            ],
+            "min" : [
+                -0.1401916891336441,
+                -3.7117650508880615,
+                -0.13933314383029938
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 999,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 999,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 4536,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 28296,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28296,
+            "byteOffset" : 28296,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18864,
+            "byteOffset" : 56592,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8568,
+            "byteOffset" : 75456,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1728,
+            "byteOffset" : 84024,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1728,
+            "byteOffset" : 85752,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 87480,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 864,
+            "byteOffset" : 88632,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11988,
+            "byteOffset" : 89496,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11988,
+            "byteOffset" : 101484,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7992,
+            "byteOffset" : 113472,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9072,
+            "byteOffset" : 121464,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 130536,
+            "uri" : "1989_kitchen_Light_ZireMidnightBlack.bin"
+        }
+    ]
+}
