@@ -69,11 +69,11 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 576,
+            "count" : 575,
             "max" : [
                 2.3000011444091797,
                 3.3000001907348633,
-                17.760000228881836
+                18.300249099731445
             ],
             "min" : [
                 -2.299999952316284,
@@ -85,13 +85,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 576,
+            "count" : 575,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 576,
+            "count" : 575,
             "type" : "VEC2"
         },
         {
@@ -104,26 +104,26 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 6912,
+            "byteLength" : 6900,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 6912,
-            "byteOffset" : 6912,
+            "byteLength" : 6900,
+            "byteOffset" : 6900,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 4608,
-            "byteOffset" : 13824,
+            "byteLength" : 4600,
+            "byteOffset" : 13800,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 3288,
-            "byteOffset" : 18432,
+            "byteOffset" : 18400,
             "target" : 34963
         }
     ],
@@ -135,7 +135,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 21720,
+            "byteLength" : 21688,
             "uri" : "1860_bathroom_BP_BackplashSwedenVadretPolished.bin"
         }
     ]

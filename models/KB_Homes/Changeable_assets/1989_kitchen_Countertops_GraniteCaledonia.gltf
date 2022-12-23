@@ -1,142 +1,369 @@
 {
-    "asset" : {
-        "generator" : "Khronos glTF Blender I/O v3.3.27",
-        "version" : "2.0"
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2023 v20220505.2"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        -32.4000053,
+        1.31,
+        20.1000061
+      ],
+      "name": "Line22374"
     },
-    "scene" : 0,
-    "scenes" : [
+    {
+      "mesh": 1,
+      "translation": [
+        -28.6999912,
+        1.3550005,
+        17.55
+      ],
+      "rotation": [
+        -0.7071068,
+        -3.09086232E-08,
+        -0.7071068,
+        3.09086268E-08
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "name": "Line23355"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -33.82999,
+        1.3550005,
+        17.55
+      ],
+      "rotation": [
+        3.09086232E-08,
+        -0.7071068,
+        3.09086232E-08,
+        0.7071068
+      ],
+      "name": "Line23421"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -30.7333355,
+        1.31,
+        18.6600018
+      ],
+      "rotation": [
+        -0.7071068,
+        -3.09086232E-08,
+        -0.7071068,
+        3.09086268E-08
+      ],
+      "scale": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "name": "Line22377"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
         {
-            "name" : "Scene",
-            "nodes" : [
-                0
-            ]
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
         }
-    ],
-    "nodes" : [
+      ],
+      "name": "Line22374"
+    },
+    {
+      "primitives": [
         {
-            "mesh" : 0,
-            "name" : "Countertop_granite_caledonia.001",
-            "translation" : [
-                -32.40000534057617,
-                1.309999942779541,
-                20.100006103515625
-            ]
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0
         }
-    ],
-    "materials" : [
+      ],
+      "name": "Line23355"
+    },
+    {
+      "primitives": [
         {
-            "doubleSided" : true,
-            "name" : "Countertops_Granite Caledonia",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0
-            }
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 0
         }
-    ],
-    "meshes" : [
+      ],
+      "name": "Line23421"
+    },
+    {
+      "primitives": [
         {
-            "name" : "Line22374.007",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 0,
-                        "NORMAL" : 1,
-                        "TEXCOORD_0" : 2
-                    },
-                    "indices" : 3,
-                    "material" : 0
-                }
-            ]
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 0
         }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "CT_6_new",
-            "uri" : "textures/CT_6_new.jpg"
-        }
-    ],
-    "accessors" : [
-        {
-            "bufferView" : 0,
-            "componentType" : 5126,
-            "count" : 622,
-            "max" : [
-                5.800014972686768,
-                0.07000087201595306,
-                0.800000011920929
-            ],
-            "min" : [
-                -1.2999804019927979,
-                0,
-                -4.400008201599121
-            ],
-            "type" : "VEC3"
+      ],
+      "name": "Line22377"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 864,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 212,
+      "max": [
+        2.75000262,
+        0.05,
+        0.8
+      ],
+      "min": [
+        -0.8200011,
+        0.0,
+        -1.10000026
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2544,
+      "componentType": 5126,
+      "count": 212,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 212,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1728,
+      "componentType": 5123,
+      "count": 264,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 5088,
+      "componentType": 5126,
+      "count": 91,
+      "max": [
+        2.05,
+        0.0250000283,
+        2.10000038
+      ],
+      "min": [
+        -1.85000062,
+        -0.02499997,
+        -2.10000038
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 6180,
+      "componentType": 5126,
+      "count": 91,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1696,
+      "componentType": 5126,
+      "count": 91,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2256,
+      "componentType": 5123,
+      "count": 108,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7272,
+      "componentType": 5126,
+      "count": 46,
+      "max": [
+        -1.04999816,
+        0.02500031,
+        -0.130004466
+      ],
+      "min": [
+        -1.84999907,
+        -0.02500014,
+        -2.10000086
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 7824,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2424,
+      "componentType": 5126,
+      "count": 46,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2472,
+      "componentType": 5123,
+      "count": 456,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8376,
+      "componentType": 5126,
+      "count": 164,
+      "max": [
+        1.061448,
+        0.050000485,
+        -0.36666435
+      ],
+      "min": [
+        0.43978405,
+        0.0299999975,
+        -1.36666644
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 10344,
+      "componentType": 5126,
+      "count": 164,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2792,
+      "componentType": 5126,
+      "count": 164,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3384,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3384,
+      "byteLength": 12312,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15696,
+      "byteLength": 4104,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "1989_Kitchen_CounterTops_GraniteCaledonia.bin",
+      "byteLength": 19800
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
         },
-        {
-            "bufferView" : 1,
-            "componentType" : 5126,
-            "count" : 622,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 2,
-            "componentType" : 5126,
-            "count" : 622,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 3,
-            "componentType" : 5123,
-            "count" : 1668,
-            "type" : "SCALAR"
-        }
-    ],
-    "bufferViews" : [
-        {
-            "buffer" : 0,
-            "byteLength" : 7464,
-            "byteOffset" : 0,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 7464,
-            "byteOffset" : 7464,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 4976,
-            "byteOffset" : 14928,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3336,
-            "byteOffset" : 19904,
-            "target" : 34963
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
-        }
-    ],
-    "buffers" : [
-        {
-            "byteLength" : 23240,
-            "uri" : "1989_kitchen_Countertops_GraniteCaledonia.bin"
-        }
-    ]
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2
+      },
+      "doubleSided": true,
+      "name": "CounterTop - Caledonia",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CounterTop_Caledonia.jpg"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Textures/CounterTop_Caledonia.jpg"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
 }

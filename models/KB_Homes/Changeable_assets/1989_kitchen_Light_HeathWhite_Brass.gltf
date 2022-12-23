@@ -16,15 +16,10 @@
         {
             "mesh" : 0,
             "name" : "HeathWhite/Brass",
-            "scale" : [
-                0.300915002822876,
-                0.300915002822876,
-                0.300915002822876
-            ],
             "translation" : [
-                -32.88612365722656,
-                3.7497801780700684,
-                19.99932098388672
+                -15.36749267578125,
+                -0.41362953186035156,
+                -2.2104332447052
             ]
         }
     ],
@@ -60,7 +55,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Cylinder.005",
+            "name" : "Cylinder.006",
             "primitives" : [
                 {
                     "attributes" : {
@@ -87,29 +82,29 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 759,
+            "count" : 783,
             "max" : [
-                9.961068153381348,
-                -2.927973985671997,
-                0.4569298326969147
+                -14.858596801757812,
+                3.2143776416778564,
+                22.34413719177246
             ],
             "min" : [
-                -0.4569363594055176,
-                -4.501046657562256,
-                -0.4569302499294281
+                -17.36449432373047,
+                2.8876523971557617,
+                22.069143295288086
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 759,
+            "count" : 783,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 759,
+            "count" : 783,
             "type" : "VEC2"
         },
         {
@@ -123,14 +118,14 @@
             "componentType" : 5126,
             "count" : 726,
             "max" : [
-                9.819293022155762,
-                0.8638404607772827,
-                0.31514790654182434
+                -14.90125846862793,
+                4.024559497833252,
+                22.30147361755371
             ],
             "min" : [
-                -0.3151487410068512,
-                -3.5322563648223877,
-                -0.3151489794254303
+                -17.321826934814453,
+                3.0888688564300537,
+                22.111806869506836
             ],
             "type" : "VEC3"
         },
@@ -156,56 +151,56 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 9108,
+            "byteLength" : 9396,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 9108,
-            "byteOffset" : 9108,
+            "byteLength" : 9396,
+            "byteOffset" : 9396,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 6072,
-            "byteOffset" : 18216,
+            "byteLength" : 6264,
+            "byteOffset" : 18792,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 6912,
-            "byteOffset" : 24288,
+            "byteOffset" : 25056,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 8712,
-            "byteOffset" : 31200,
+            "byteOffset" : 31968,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 8712,
-            "byteOffset" : 39912,
+            "byteOffset" : 40680,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 5808,
-            "byteOffset" : 48624,
+            "byteOffset" : 49392,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 6372,
-            "byteOffset" : 54432,
+            "byteOffset" : 55200,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 60804,
+            "byteLength" : 61572,
             "uri" : "1989_kitchen_Light_HeathWhite_Brass.bin"
         }
     ]

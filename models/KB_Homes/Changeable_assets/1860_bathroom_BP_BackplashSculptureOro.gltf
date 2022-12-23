@@ -69,11 +69,11 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 595,
+            "count" : 594,
             "max" : [
                 2.3000011444091797,
                 3.3000001907348633,
-                17.760000228881836
+                18.300249099731445
             ],
             "min" : [
                 -2.299999952316284,
@@ -85,13 +85,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 595,
+            "count" : 594,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 595,
+            "count" : 594,
             "type" : "VEC2"
         },
         {
@@ -104,26 +104,26 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 7140,
+            "byteLength" : 7128,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 7140,
-            "byteOffset" : 7140,
+            "byteLength" : 7128,
+            "byteOffset" : 7128,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 4760,
-            "byteOffset" : 14280,
+            "byteLength" : 4752,
+            "byteOffset" : 14256,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 3288,
-            "byteOffset" : 19040,
+            "byteOffset" : 19008,
             "target" : 34963
         }
     ],
@@ -135,7 +135,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 22328,
+            "byteLength" : 22296,
             "uri" : "1860_bathroom_BP_BackplashSculptureOro.bin"
         }
     ]

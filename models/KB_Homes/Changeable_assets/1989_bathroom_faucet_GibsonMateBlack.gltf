@@ -55,6 +55,7 @@
                     0.14283859729766846,
                     1
                 ],
+                "metallicFactor" : 0,
                 "roughnessFactor" : 0.6010363101959229
             }
         }

@@ -1,0 +1,169 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2023 v20220505.2"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        -32.2740555,
+        1.33000016,
+        15.1020908
+      ],
+      "rotation": [
+        -0.7071068,
+        -5.3385083E-08,
+        -0.7071068,
+        5.3385083E-08
+      ],
+      "scale": [
+        0.829841852,
+        -1.0,
+        0.925877035
+      ],
+      "name": "Line22576"
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -16.9009113,
+        1.33000016,
+        27.6309433
+      ],
+      "scale": [
+        0.829841852,
+        1.0,
+        0.925877035
+      ],
+      "name": "Line23605"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ],
+      "name": "Line22576"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 972,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 358,
+      "max": [
+        0.599999,
+        0.0400000326,
+        1.915566
+      ],
+      "min": [
+        -0.6000007,
+        0.0,
+        -1.21880674
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4296,
+      "componentType": 5126,
+      "count": 358,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 358,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1944,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1944,
+      "byteLength": 8592,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10536,
+      "byteLength": 2864,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "1989_Bathroom_CounterTops_GraniteCaledonia.bin",
+      "byteLength": 13400
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.2
+      },
+      "doubleSided": true,
+      "name": "CounterTop - Caledonia",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CounterTop_Caledonia.jpg"
+    }
+  ],
+  "images": [
+    {
+      "uri": "Textures/CounterTop_Caledonia.jpg"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ]
+}

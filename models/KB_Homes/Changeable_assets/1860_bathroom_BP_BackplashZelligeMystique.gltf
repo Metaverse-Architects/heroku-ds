@@ -69,11 +69,11 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 714,
+            "count" : 713,
             "max" : [
                 2.3000011444091797,
                 3.3000001907348633,
-                17.760000228881836
+                18.300249099731445
             ],
             "min" : [
                 -2.299999952316284,
@@ -85,13 +85,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 714,
+            "count" : 713,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 714,
+            "count" : 713,
             "type" : "VEC2"
         },
         {
@@ -104,26 +104,26 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 8568,
+            "byteLength" : 8556,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 8568,
-            "byteOffset" : 8568,
+            "byteLength" : 8556,
+            "byteOffset" : 8556,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 5712,
-            "byteOffset" : 17136,
+            "byteLength" : 5704,
+            "byteOffset" : 17112,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 3708,
-            "byteOffset" : 22848,
+            "byteOffset" : 22816,
             "target" : 34963
         }
     ],
@@ -135,7 +135,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 26556,
+            "byteLength" : 26524,
             "uri" : "1860_bathroom_BP_BackplashZelligeMystique.bin"
         }
     ]

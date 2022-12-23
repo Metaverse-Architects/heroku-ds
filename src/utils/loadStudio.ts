@@ -1,6 +1,6 @@
 
 import { KBCulDeSac } from "src/exterior.ts/kb-cul-de-sac";
-import { designStudioCanvas } from "src/furnitureSystem/database";
+import { designStudioCanvas } from "src/furnitureSystem/1860_Database/database_1860";
 import { designStudio, kitchenMenuCanvas } from "src/furnitureSystem/designStudio";
 
 export function loadStudio(designStudio: designStudio, pastEntity: Entity){

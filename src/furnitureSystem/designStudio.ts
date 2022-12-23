@@ -21,9 +21,12 @@ import { ExitPlane } from "src/utils/exitPlane"
 import { unloadStudio } from "src/utils/loadStudio"
 import { movePlayerToVector3 } from "src/utils/movePlayerToVector3"
 import { TriggerDoor } from "src/utils/triggerDoor"
-import { bathroom_backsplash_1860, bathroom_cabinets_1860, bathroom_countertops_1860, bathroom_faucets_1860, bathroom_flooring_1860, bathroom_lights_1860, designStudioCanvas, kitchen_backsplash_1860, kitchen_cabinets_1860, kitchen_countertops_1860, kitchen_faucets_1860, kitchen_flooring_1860, kitchen_ligthing_1860 } from "./database"
-import { bathroom_backsplash_1989, bathroom_cabinets_1989, bathroom_countertops_1989, bathroom_faucets_1989, bathroom_flooring_1989, bathroom_lights_1989, kitchen_backsplash_1989, kitchen_cabinets_1989, kitchen_countertops_1989, kitchen_faucets_1989, kitchen_flooring_1989, kitchen_ligthing_1989 } from "./database_1989"
-import { bathroom_backsplash_2345, bathroom_cabinets_2345, bathroom_countertops_2345, bathroom_faucets_2345, bathroom_flooring_2345, bathroom_lights_2345, kitchen_backsplash_2345, kitchen_cabinets_2345, kitchen_countertops_2345, kitchen_faucets_2345, kitchen_flooring_2345, kitchen_ligthing_2345 } from "./database_2345"
+import { bathroom_flooring_1860, kitchen_flooring_1860 } from "./1860_Database/1860_flooring"
+import { bathroom_backsplash_1860, bathroom_cabinets_1860, bathroom_countertops_1860, bathroom_faucets_1860, bathroom_lights_1860, designStudioCanvas, kitchen_backsplash_1860, kitchen_cabinets_1860, kitchen_countertops_1860, kitchen_faucets_1860, kitchen_ligthing_1860 } from "./1860_Database/database_1860"
+import { bathroom_flooring_1989, kitchen_flooring_1989 } from "./1989_Database/1989_flooring"
+import { bathroom_backsplash_1989, bathroom_cabinets_1989, bathroom_countertops_1989, bathroom_faucets_1989, bathroom_lights_1989, kitchen_backsplash_1989, kitchen_cabinets_1989, kitchen_countertops_1989, kitchen_faucets_1989, kitchen_ligthing_1989 } from "./1989_Database/database_1989"
+import { bathroom_flooring_2345, kitchen_flooring_2345 } from "./2345_Database/2345_flooring"
+import { bathroom_backsplash_2345, bathroom_cabinets_2345, bathroom_countertops_2345, bathroom_faucets_2345, bathroom_lights_2345, kitchen_backsplash_2345, kitchen_cabinets_2345, kitchen_countertops_2345, kitchen_faucets_2345, kitchen_ligthing_2345 } from "./2345_Database/database_2345"
 
 
 
@@ -636,7 +639,7 @@ export class designStudio extends Entity{
         this.bathroom_countertops_holder  .addComponentOrReplace(new Transform({position: new Vector3(0,0,0)}))
         this.kitchen_faucet_holder        .addComponentOrReplace(new Transform({position: new Vector3(0,0,0)}))      
         this.kitchen_flooring_holder      .addComponentOrReplace(new Transform({position: new Vector3(0,0,0)}))  
-        this.kitchen_lighting_holder      .addComponentOrReplace(new Transform({position: new Vector3(0,-0.3,0,)}))
+        this.kitchen_lighting_holder      .addComponentOrReplace(new Transform({position: new Vector3(0,0,0)}))
 
         this.kitchen_cabinets_holder      .addComponentOrReplace(new Transform({position: new Vector3(0,0,0)}))      
         this.kitchen_countertops_holder   .addComponentOrReplace(new Transform({position: new Vector3(0,0,0)}))   

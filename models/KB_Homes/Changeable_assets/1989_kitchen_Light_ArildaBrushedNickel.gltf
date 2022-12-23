@@ -16,15 +16,10 @@
         {
             "mesh" : 0,
             "name" : "Arilda Brushed Nickel",
-            "scale" : [
-                0.300915002822876,
-                0.300915002822876,
-                0.300915002822876
-            ],
             "translation" : [
-                -32.61796951293945,
-                3.7497801780700684,
-                19.999963760375977
+                -15.36749267578125,
+                -0.41362953186035156,
+                -2.2104332447052
             ]
         }
     ],
@@ -75,7 +70,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Cylinder.004",
+            "name" : "Cylinder.007",
             "primitives" : [
                 {
                     "attributes" : {
@@ -111,29 +106,29 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1272,
+            "count" : 1305,
             "max" : [
-                7.80327033996582,
-                0.8638415336608887,
-                0.31515562534332275
+                -14.901260375976562,
+                4.02455997467041,
+                22.301475524902344
             ],
             "min" : [
-                -0.3151531517505646,
-                -3.6372079849243164,
-                -0.3151412308216095
+                -17.3245792388916,
+                3.0141093730926514,
+                22.11180877685547
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1272,
+            "count" : 1305,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1272,
+            "count" : 1305,
             "type" : "VEC2"
         },
         {
@@ -145,29 +140,29 @@
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 894,
+            "count" : 948,
             "max" : [
-                7.8054118156433105,
-                -2.953608512878418,
-                0.31730493903160095
+                -14.900616645812988,
+                3.1920218467712402,
+                22.302122116088867
             ],
             "min" : [
-                -0.31730231642723083,
-                -4.133083343505859,
-                -0.3172822594642639
+                -17.325225830078125,
+                2.8850536346435547,
+                22.11116600036621
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 894,
+            "count" : 948,
             "type" : "VEC3"
         },
         {
             "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 894,
+            "count" : 948,
             "type" : "VEC2"
         },
         {
@@ -179,29 +174,29 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 999,
+            "count" : 1044,
             "max" : [
-                7.580813884735107,
-                -3.636268138885498,
-                0.0936659649014473
+                -14.96820068359375,
+                3.0143539905548096,
+                22.234825134277344
             ],
             "min" : [
-                -0.09241074323654175,
-                -3.9006237983703613,
-                -0.09143807739019394
+                -17.257553100585938,
+                2.9455533027648926,
+                22.17912483215332
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 999,
+            "count" : 1044,
             "type" : "VEC3"
         },
         {
             "bufferView" : 10,
             "componentType" : 5126,
-            "count" : 999,
+            "count" : 1044,
             "type" : "VEC2"
         },
         {
@@ -214,80 +209,80 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15264,
+            "byteLength" : 15660,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 15264,
-            "byteOffset" : 15264,
+            "byteLength" : 15660,
+            "byteOffset" : 15660,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 10176,
-            "byteOffset" : 30528,
+            "byteLength" : 10440,
+            "byteOffset" : 31320,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 11160,
-            "byteOffset" : 40704,
+            "byteOffset" : 41760,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 10728,
-            "byteOffset" : 51864,
+            "byteLength" : 11376,
+            "byteOffset" : 52920,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 10728,
-            "byteOffset" : 62592,
+            "byteLength" : 11376,
+            "byteOffset" : 64296,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 7152,
-            "byteOffset" : 73320,
+            "byteLength" : 7584,
+            "byteOffset" : 75672,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 8640,
-            "byteOffset" : 80472,
+            "byteOffset" : 83256,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 11988,
-            "byteOffset" : 89112,
+            "byteLength" : 12528,
+            "byteOffset" : 91896,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 11988,
-            "byteOffset" : 101100,
+            "byteLength" : 12528,
+            "byteOffset" : 104424,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 7992,
-            "byteOffset" : 113088,
+            "byteLength" : 8352,
+            "byteOffset" : 116952,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 9072,
-            "byteOffset" : 121080,
+            "byteOffset" : 125304,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 130152,
+            "byteLength" : 134376,
             "uri" : "1989_kitchen_Light_ArildaBrushedNickel.bin"
         }
     ]

@@ -17,20 +17,15 @@
             "mesh" : 0,
             "name" : "Dianna Satin Brass",
             "rotation" : [
-                -0.7071068286895752,
                 0,
+                -0.7071068286895752,
                 0,
                 0.7071067094802856
             ],
-            "scale" : [
-                1.921563982963562,
-                4.666512489318848,
-                1.6497963666915894
-            ],
             "translation" : [
-                -37.01475143432617,
-                4.161540985107422,
-                23.7622013092041
+                -37.009117126464844,
+                4.046267032623291,
+                24.76974868774414
             ]
         }
     ],
@@ -79,7 +74,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Torus.003",
+            "name" : "Torus.002",
             "primitives" : [
                 {
                     "attributes" : {
@@ -115,63 +110,63 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 18758,
+            "count" : 18115,
             "max" : [
-                0.09818427264690399,
-                0.039611104875802994,
-                0.034412987530231476
+                1.1889573335647583,
+                0.4529043734073639,
+                0.19257068634033203
             ],
             "min" : [
-                -0.09857204556465149,
-                -0.4708135724067688,
-                -0.5312017202377319
+                -1.1945300102233887,
+                -0.655297577381134,
+                -0.18550994992256165
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 18758,
+            "count" : 18115,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 18758,
+            "count" : 18115,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 60066,
+            "count" : 80802,
             "type" : "SCALAR"
         },
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 609,
+            "count" : 552,
             "max" : [
-                0.007700975984334946,
-                0.015166045166552067,
-                -0.4328759014606476
+                1.0150891542434692,
+                -0.4930799901485443,
+                0.07516764849424362
             ],
             "min" : [
-                -0.007869258522987366,
-                -0.44565504789352417,
-                -0.4845711886882782
+                -1.0202383995056152,
+                -0.5783668160438538,
+                -0.07143715769052505
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 609,
+            "count" : 552,
             "type" : "VEC3"
         },
         {
             "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 609,
+            "count" : 552,
             "type" : "VEC2"
         },
         {
@@ -183,29 +178,29 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 2760,
+            "count" : 2538,
             "max" : [
-                0.00770444143563509,
-                0.015078535303473473,
-                -0.3951874375343323
+                1.0150948762893677,
+                -0.4309018552303314,
+                0.07492922991514206
             ],
             "min" : [
-                -0.007797152269631624,
-                -0.4456040561199188,
-                -0.4380113482475281
+                -1.0201010704040527,
+                -0.501552402973175,
+                -0.07102898508310318
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 2760,
+            "count" : 2538,
             "type" : "VEC3"
         },
         {
             "bufferView" : 10,
             "componentType" : 5126,
-            "count" : 2760,
+            "count" : 2538,
             "type" : "VEC2"
         },
         {
@@ -218,80 +213,80 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 225096,
+            "byteLength" : 217380,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 225096,
-            "byteOffset" : 225096,
+            "byteLength" : 217380,
+            "byteOffset" : 217380,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 150064,
-            "byteOffset" : 450192,
+            "byteLength" : 144920,
+            "byteOffset" : 434760,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 120132,
-            "byteOffset" : 600256,
+            "byteLength" : 161604,
+            "byteOffset" : 579680,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 7308,
-            "byteOffset" : 720388,
+            "byteLength" : 6624,
+            "byteOffset" : 741284,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 7308,
-            "byteOffset" : 727696,
+            "byteLength" : 6624,
+            "byteOffset" : 747908,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 4872,
-            "byteOffset" : 735004,
+            "byteLength" : 4416,
+            "byteOffset" : 754532,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 2520,
-            "byteOffset" : 739876,
+            "byteOffset" : 758948,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 33120,
-            "byteOffset" : 742396,
+            "byteLength" : 30456,
+            "byteOffset" : 761468,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 33120,
-            "byteOffset" : 775516,
+            "byteLength" : 30456,
+            "byteOffset" : 791924,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 22080,
-            "byteOffset" : 808636,
+            "byteLength" : 20304,
+            "byteOffset" : 822380,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 25920,
-            "byteOffset" : 830716,
+            "byteOffset" : 842684,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 856636,
+            "byteLength" : 868604,
             "uri" : "2345_kitchen_Light_DiannaSatinBrass.bin"
         }
     ]

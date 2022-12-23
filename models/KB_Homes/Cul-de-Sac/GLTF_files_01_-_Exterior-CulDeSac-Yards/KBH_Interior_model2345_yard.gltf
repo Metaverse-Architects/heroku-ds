@@ -10929,67 +10929,67 @@
   ],
   "images": [
     {
-      "uri": "../maps/Vegitation_hedge_normal.jpg"
+      "uri": "Maps/Vegitation_hedge_normal.jpg"
     },
     {
-      "uri": "../maps/vegetation_hedge_25.jpg"
+      "uri": "Maps/vegetation_hedge_25.jpg"
     },
     {
-      "uri": "../maps/Plaster_StuccoSplatter_1K_normal.jpg"
+      "uri": "Maps/Plaster_StuccoSplatter_1K_normal.jpg"
     },
     {
-      "uri": "../maps/Plaster_StuccoSplatter_1K_albedo_2B.jpg"
+      "uri": "Maps/Plaster_StuccoSplatter_1K_albedo_2B.jpg"
     },
     {
-      "uri": "../maps/Plaster_StuccoSplatter_1K_roughness0.jpg"
+      "uri": "Maps/Plaster_StuccoSplatter_1K_roughness0.jpg"
     },
     {
-      "uri": "../maps/Various_Retroreflector_1K_normal-1.jpg"
+      "uri": "Maps/Various_Retroreflector_1K_normal-1.jpg"
     },
     {
-      "uri": "../maps/Metal_AluminumBrushed2_1K_albedo-4.jpg"
+      "uri": "Maps/Metal_AluminumBrushed2_1K_albedo-4.jpg"
     },
     {
-      "uri": "../maps/1_DCL_wood chips_NORM.jpg"
+      "uri": "Maps/1_DCL_wood chips_NORM.jpg"
     },
     {
-      "uri": "../maps/1_DCL_wood chips_DIFF2.jpg"
+      "uri": "Maps/1_DCL_wood chips_DIFF2.jpg"
     },
     {
-      "uri": "../maps/1_DCL_wood chips_SPEC0.jpg"
+      "uri": "Maps/1_DCL_wood chips_SPEC0.jpg"
     },
     {
-      "uri": "../maps/grass1-normal1-dx.jpg"
+      "uri": "Maps/grass1-normal1-dx.jpg"
     },
     {
-      "uri": "../maps/grass1-albedo3.jpg"
+      "uri": "Maps/grass1-albedo3.jpg"
     },
     {
-      "uri": "../maps/grass1-rough0.jpg"
+      "uri": "Maps/grass1-rough0.jpg"
     },
     {
-      "uri": "../maps/Cordyline_03.png"
+      "uri": "Maps/Cordyline_03.png"
     },
     {
-      "uri": "../maps/Birkin_03.png"
+      "uri": "Maps/Birkin_03.png"
     },
     {
-      "uri": "../maps/Leavs_baseColor.png"
+      "uri": "Maps/Leavs_baseColor.png"
     },
     {
-      "uri": "../maps/Trank_normal.png"
+      "uri": "Maps/Trank_normal.png"
     },
     {
-      "uri": "../maps/Trank_baseColor.png"
+      "uri": "Maps/Trank_baseColor.png"
     },
     {
-      "uri": "../maps/bark_normal.png"
+      "uri": "Maps/bark_normal.png"
     },
     {
-      "uri": "../maps/bark_baseColor.png"
+      "uri": "Maps/bark_baseColor.png"
     },
     {
-      "uri": "../maps/leaves_baseColor.png"
+      "uri": "Maps/leaves_baseColor.png"
     }
   ],
   "samplers": [

@@ -15,7 +15,12 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Dianna Satin Brass"
+            "name" : "Dianna Satin Brass",
+            "translation" : [
+                0,
+                -0.4182242155075073,
+                0
+            ]
         }
     ],
     "materials" : [
@@ -99,15 +104,15 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 19627,
+            "count" : 18046,
             "max" : [
                 -14.099597930908203,
                 4.016322135925293,
                 22.39987564086914
             ],
             "min" : [
-                -18.119564056396484,
-                3.0831730365753174,
+                -18.10723876953125,
+                2.9081201553344727,
                 22.02179527282715
             ],
             "type" : "VEC3"
@@ -115,33 +120,33 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 19627,
+            "count" : 18046,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 19627,
+            "count" : 18046,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 60066,
+            "count" : 80802,
             "type" : "SCALAR"
         },
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 565,
+            "count" : 602,
             "max" : [
                 -14.273467063903809,
-                3.2453906536102295,
+                3.0703377723693848,
                 22.282472610473633
             ],
             "min" : [
-                -17.94527244567871,
-                3.1601037979125977,
+                -17.932947158813477,
+                2.985050916671753,
                 22.135868072509766
             ],
             "type" : "VEC3"
@@ -149,13 +154,13 @@
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 565,
+            "count" : 602,
             "type" : "VEC3"
         },
         {
             "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 565,
+            "count" : 602,
             "type" : "VEC2"
         },
         {
@@ -167,15 +172,15 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 2976,
+            "count" : 2538,
             "max" : [
                 -14.273460388183594,
-                3.3075687885284424,
+                3.1325159072875977,
                 22.28223419189453
             ],
             "min" : [
-                -17.945133209228516,
-                3.2369182109832764,
+                -17.932809829711914,
+                3.0618653297424316,
                 22.136276245117188
             ],
             "type" : "VEC3"
@@ -183,13 +188,13 @@
         {
             "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 2976,
+            "count" : 2538,
             "type" : "VEC3"
         },
         {
             "bufferView" : 10,
             "componentType" : 5126,
-            "count" : 2976,
+            "count" : 2538,
             "type" : "VEC2"
         },
         {
@@ -202,80 +207,80 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 235524,
+            "byteLength" : 216552,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 235524,
-            "byteOffset" : 235524,
+            "byteLength" : 216552,
+            "byteOffset" : 216552,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 157016,
-            "byteOffset" : 471048,
+            "byteLength" : 144368,
+            "byteOffset" : 433104,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 120132,
-            "byteOffset" : 628064,
+            "byteLength" : 161604,
+            "byteOffset" : 577472,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 6780,
-            "byteOffset" : 748196,
+            "byteLength" : 7224,
+            "byteOffset" : 739076,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 6780,
-            "byteOffset" : 754976,
+            "byteLength" : 7224,
+            "byteOffset" : 746300,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 4520,
-            "byteOffset" : 761756,
+            "byteLength" : 4816,
+            "byteOffset" : 753524,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 2520,
-            "byteOffset" : 766276,
+            "byteOffset" : 758340,
             "target" : 34963
         },
         {
             "buffer" : 0,
-            "byteLength" : 35712,
-            "byteOffset" : 768796,
+            "byteLength" : 30456,
+            "byteOffset" : 760860,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 35712,
-            "byteOffset" : 804508,
+            "byteLength" : 30456,
+            "byteOffset" : 791316,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 23808,
-            "byteOffset" : 840220,
+            "byteLength" : 20304,
+            "byteOffset" : 821772,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 25920,
-            "byteOffset" : 864028,
+            "byteOffset" : 842076,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 889948,
+            "byteLength" : 867996,
             "uri" : "1860_kitchen_Light_DiannaSatinBrass.bin"
         }
     ]

@@ -15,7 +15,12 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Zire Midnight Black"
+            "name" : "Zire Midnight Black",
+            "translation" : [
+                0,
+                -0.4182242155075073,
+                0
+            ]
         }
     ],
     "materials" : [
@@ -102,7 +107,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 2739,
+            "count" : 2368,
             "max" : [
                 -14.17166805267334,
                 4.02455997467041,
@@ -110,7 +115,7 @@
             ],
             "min" : [
                 -18.024837493896484,
-                2.767606258392334,
+                3.1498615741729736,
                 22.089759826660156
             ],
             "type" : "VEC3"
@@ -118,13 +123,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 2739,
+            "count" : 2368,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 2739,
+            "count" : 2368,
             "type" : "VEC2"
         },
         {
@@ -139,12 +144,12 @@
             "count" : 144,
             "max" : [
                 -14.175570487976074,
-                2.846754312515259,
+                3.2290096282958984,
                 22.31962013244629
             ],
             "min" : [
                 -18.02093505859375,
-                2.5005807876586914,
+                2.882836103439331,
                 22.09366226196289
             ],
             "type" : "VEC3"
@@ -173,12 +178,12 @@
             "count" : 1044,
             "max" : [
                 -14.246292114257812,
-                2.7682905197143555,
+                3.150545835494995,
                 22.249156951904297
             ],
             "min" : [
                 -17.95013999938965,
-                2.647691488265991,
+                3.029946804046631,
                 22.16471290588379
             ],
             "type" : "VEC3"
@@ -205,80 +210,80 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 32868,
+            "byteLength" : 28416,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 32868,
-            "byteOffset" : 32868,
+            "byteLength" : 28416,
+            "byteOffset" : 28416,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 21912,
-            "byteOffset" : 65736,
+            "byteLength" : 18944,
+            "byteOffset" : 56832,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 8568,
-            "byteOffset" : 87648,
+            "byteOffset" : 75776,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 1728,
-            "byteOffset" : 96216,
+            "byteOffset" : 84344,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 1728,
-            "byteOffset" : 97944,
+            "byteOffset" : 86072,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 1152,
-            "byteOffset" : 99672,
+            "byteOffset" : 87800,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 864,
-            "byteOffset" : 100824,
+            "byteOffset" : 88952,
             "target" : 34963
         },
         {
             "buffer" : 0,
             "byteLength" : 12528,
-            "byteOffset" : 101688,
+            "byteOffset" : 89816,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 12528,
-            "byteOffset" : 114216,
+            "byteOffset" : 102344,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 8352,
-            "byteOffset" : 126744,
+            "byteOffset" : 114872,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 9072,
-            "byteOffset" : 135096,
+            "byteOffset" : 123224,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 144168,
+            "byteLength" : 132296,
             "uri" : "1860_kitchen_Light_ZireMidnightBlack.bin"
         }
     ]

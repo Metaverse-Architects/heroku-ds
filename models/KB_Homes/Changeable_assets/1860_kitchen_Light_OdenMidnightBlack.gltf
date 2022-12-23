@@ -15,7 +15,12 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Oden Midnight Black"
+            "name" : "Oden Midnight Black",
+            "translation" : [
+                0,
+                -0.4182242155075073,
+                0
+            ]
         }
     ],
     "materials" : [
@@ -62,7 +67,7 @@
             ],
             "min" : [
                 -18.076143264770508,
-                2.6013755798339844,
+                2.8852317333221436,
                 22.053823471069336
             ],
             "type" : "VEC3"

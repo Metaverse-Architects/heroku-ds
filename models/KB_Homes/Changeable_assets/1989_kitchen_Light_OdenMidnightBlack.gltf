@@ -16,15 +16,10 @@
         {
             "mesh" : 0,
             "name" : "Oden Midnight Black",
-            "scale" : [
-                0.300915002822876,
-                0.300915002822876,
-                0.300915002822876
-            ],
             "translation" : [
-                -32.57711410522461,
-                3.7497801780700684,
-                20.00019645690918
+                -15.36749267578125,
+                -0.41362953186035156,
+                -2.2104332447052
             ]
         }
     ],
@@ -42,18 +37,11 @@
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
             }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "white",
-            "pbrMetallicRoughness" : {
-                "metallicFactor" : 0
-            }
         }
     ],
     "meshes" : [
         {
-            "name" : "Cylinder",
+            "name" : "Cylinder.002",
             "primitives" : [
                 {
                     "attributes" : {
@@ -63,15 +51,6 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                },
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
-                    },
-                    "indices" : 7,
-                    "material" : 1
                 }
             ]
         }
@@ -80,29 +59,29 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 1329,
+            "count" : 1122,
             "max" : [
-                7.820930004119873,
-                0.8638404607772827,
-                0.5078676342964172
+                -14.843273162841797,
+                4.02455997467041,
+                22.359464645385742
             ],
             "min" : [
-                -0.5078597068786621,
-                -3.8656814098358154,
-                -0.5078383088111877
+                -17.39969825744629,
+                2.8852317333221436,
+                22.053823471069336
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 1329,
+            "count" : 1122,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 1329,
+            "count" : 1122,
             "type" : "VEC2"
         },
         {
@@ -110,95 +89,37 @@
             "componentType" : 5123,
             "count" : 4950,
             "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 429,
-            "max" : [
-                7.492713451385498,
-                -3.134685754776001,
-                0.1796465516090393
-            ],
-            "min" : [
-                -0.17964518070220947,
-                -3.653014898300171,
-                -0.1796286255121231
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 429,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 429,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 7,
-            "componentType" : 5123,
-            "count" : 1494,
-            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 15948,
+            "byteLength" : 13464,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 15948,
-            "byteOffset" : 15948,
+            "byteLength" : 13464,
+            "byteOffset" : 13464,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 10632,
-            "byteOffset" : 31896,
+            "byteLength" : 8976,
+            "byteOffset" : 26928,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 9900,
-            "byteOffset" : 42528,
-            "target" : 34963
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5148,
-            "byteOffset" : 52428,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 5148,
-            "byteOffset" : 57576,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 3432,
-            "byteOffset" : 62724,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 2988,
-            "byteOffset" : 66156,
+            "byteOffset" : 35904,
             "target" : 34963
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 69144,
+            "byteLength" : 45804,
             "uri" : "1989_kitchen_Light_OdenMidnightBlack.bin"
         }
     ]

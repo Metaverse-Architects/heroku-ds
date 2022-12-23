@@ -6,7 +6,7 @@ import { loadStudio, unloadStudio } from "src/utils/loadStudio"
 import { movePlayerToVector3 } from "src/utils/movePlayerToVector3"
 import { TriggerButton } from "src/utils/triggerButton"
 import * as utils from '@dcl/ecs-scene-utils'
-import { designStudioCanvas } from "src/furnitureSystem/database"
+import { designStudioCanvas } from "src/furnitureSystem/1860_Database/database_1860"
 import { TransformData } from "src/homes/transformData"
 import { Lynn } from "src/lynn"
 
@@ -261,76 +261,58 @@ class KBCulDeSacInstance extends Entity {
         })
         //1860
         this.triggerGeneralButton1860.addComponentOrReplace(new Transform({
-            position: new Vector3(44.200, 0.330, 27.630),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(350.000, 136.048, 360.000),
         }))
         this.triggerGeneralButton1860.onClick = () => this.general1860()
         this.triggerGeneralButton1860.setMessage("Main")
+        this.triggerGeneralButton1860.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/1860_craftsman_elevation_selection.gltf'))
 
         this.triggerElevation1860Button2.addComponentOrReplace(new Transform({
-            position: new Vector3(43.800, 0.330, 27.230),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(350.000, 136.048, 360.000),
         }))
+        this.triggerElevation1860Button2.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/1860_farmhouse_elevation_selection.gltf'))
         this.triggerElevation1860Button2.onClick = () => this.ranch1860()
         this.triggerElevation1860Button2.setMessage("Ranch")
 
         this.triggerElevation1860Button3.addComponentOrReplace(new Transform({
-            position: new Vector3(43.400, 0.330, 26.830),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(350.000, 136.048, 360.000),
         }))
+        this.triggerElevation1860Button3.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/1860_spanish_elevation_selection.gltf'))
         this.triggerElevation1860Button3.onClick = () => this.springMountain1860()
         this.triggerElevation1860Button3.setMessage("Spring Mountain")
 
         //1989
         this.triggerSpanishButton1989.addComponentOrReplace(new Transform({
-            position: new Vector3(20.400, 0.480, 26.070),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(90.000, 127.048, 0.000),
         }))
+        this.triggerSpanishButton1989.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/1989_spanish_elevation_selection.gltf'))
         this.triggerSpanishButton1989.onClick = () => this.spanish1989()
         this.triggerSpanishButton1989.setMessage("Spanish")
 
         this.triggerCraftsmanButton1989.addComponentOrReplace(new Transform({
-            position: new Vector3(20.130, 0.480, 26.280),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(90.000, 127.048, 0.000),
         }))
+        this.triggerCraftsmanButton1989.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/1989_craftsman_elevation_selection.gltf'))
         this.triggerCraftsmanButton1989.onClick = () => this.craftsman1989()
         this.triggerCraftsmanButton1989.setMessage("Craftsman")
 
         this.triggerGeneralButton1989.addComponentOrReplace(new Transform({
-            position: new Vector3(20.680, 0.480, 25.860),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(90.000, 126.048, 0.000),
         }))
+        this.triggerGeneralButton1989.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/1989_contemporary_elevation_selection.gltf'))
         this.triggerGeneralButton1989.onClick = () => this.farmhouse1989()
         this.triggerGeneralButton1989.setMessage("Farm House")
 
         //2345
         this.triggerSpanishButton2345.addComponentOrReplace(new Transform({
-            position: new Vector3(35.080, 0.290, 22.600),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(90.000, 81.048, 0.000),
         }))
+        this.triggerSpanishButton2345.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/2345_spanish_elevation_selection.gltf'))
         this.triggerSpanishButton2345.onClick = () => this.spanish2345()
         this.triggerSpanishButton2345.setMessage("Spanish")
 
         this.triggerCraftsmanButton2345.addComponentOrReplace(new Transform({
-            position: new Vector3(34.680, 0.290, 22.500),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(90.000, 81.048, 0.000),
         }))
+        this.triggerCraftsmanButton2345.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/2345_craftsman_elevation_selection.gltf'))
         this.triggerCraftsmanButton2345.onClick = () => this.craftsman2345()
         this.triggerCraftsmanButton2345.setMessage("Craftsman")
 
         this.triggerFarmHouseButton2345.addComponentOrReplace(new Transform({
-            position: new Vector3(34.280, 0.290, 22.460),
-            scale: new Vector3(0.400, 0.300, 0.200),
-            rotation: new Quaternion().setEuler(90.000, 81.048, 0.000),
         }))
+        this.triggerFarmHouseButton2345.addComponentOrReplace(new GLTFShape('models/KB_Homes/Cul-de-Sac/buttons/2345_farmhouse_elevation_selection.gltf'))
         this.triggerFarmHouseButton2345.onClick = () => this.farmhouse2345()
         this.triggerFarmHouseButton2345.setMessage("Farm House")
 

@@ -1,7 +1,7 @@
 import { addTestCube } from "@dcl/ecs-scene-utils";
 import { Dash_Tweaker } from "dcldash";
 import { KBCulDeSac } from "./exterior.ts/kb-cul-de-sac";
-import { designStudioCanvas } from "./furnitureSystem/database";
+import { designStudioCanvas } from "./furnitureSystem/1860_Database/database_1860";
 import { designStudio, kitchenMenuCanvas } from "./furnitureSystem/designStudio";
 import { house_1860, house_2345 } from "./homes/house_list";
 import { loadStudio, unloadStudio } from "./utils/loadStudio";
@@ -24,7 +24,7 @@ import { loadStudio, unloadStudio } from "./utils/loadStudio";
 engine.addEntity(KBCulDeSac)
 
 // designStudioCanvas.visible = true
-//
+
 
 // let cube_1 = new Entity()
 // cube_1.addComponent(new BoxShape())
